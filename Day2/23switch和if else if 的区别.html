@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<!--    <script>-->
+<!--        // 1.一般情况下，它们两个语句可以相互替换-->
+<!--        // 2switch...case 语句通常处理case为比较确定值的情况，而if...else..-->
+<!--        // 语句更灵活，常用于范围判断（大于、等于某个范围）-->
+<!--        // 3switch语句进行条件判断后直接执行到程序的条件语效率更高，而if...else语句有几种条件，就得判断多少次-->
+<!--        // 4当分支比较少时，if...else语句的执行效率比swith语句高-->
+<!--        // 5当分支比较时，switch语句的执行效率比较高，而且结构更清晰-->
+<!--        //判断时间段。 比如用户输入12点-->
+<!--        var time  = prompt('请输入时间');-->
+
+<!--        if(6 <= time && time <= 8){-->
+<!--            alert('早上好');-->
+<!--        }else if(9 <= time && time < 12){-->
+<!--            alert('上午好');-->
+
+<!--        }else if (time == 12){-->
+<!--            alert('中午好');-->
+<!--        }else if(17 >= time && time > 12){-->
+<!--            alert('下午好');-->
+<!--        }else if(18 <= time && time < 24){-->
+<!--            alert('晚上好');-->
+<!--        }else {-->
+<!--            alert('凌晨别来打扰我');-->
+<!--        }-->
+<!--        -->
+<!--    </script>-->
+<!--    <script>-->
+<!--        var man1 = prompt('第一个值');-->
+<!--        var man2 = prompt('第二值');-->
+<!--        var num;-->
+<!--        num = man1 - man2;-->
+<!--        if(num > 0){-->
+<!--            alert(man1);-->
+
+<!--        }else{-->
+<!--            alert(man2);-->
+<!--        }-->
+<!--    </script>-->
+<!--    <script>-->
+<!--        var man =  prompt('数据');-->
+<!--        if((man % 2) != 0){-->
+<!--            alert('奇数');-->
+<!--        }else-->
+<!--            {-->
+<!--            alert('偶数');-->
+<!--        }-->
+
+
+
+
+<!--    </script>-->
+
+
+    <script>
+// var numbers = prompt('请输入天数');
+// numbers = parseInt(numbers);
+// switch (numbers) {
+//     case 1:
+//     alert('星期一');
+//     break;
+//         case 2:
+//         alert('星期二');
+//         break;
+//     case 3:
+//         alert('星期三');
+//         break;
+//     case 4:
+//         alert('星期四');
+//         break;
+//     case 5:
+//         alert('星期五');
+//         break;
+//         case 6:
+//          alert('星期六');
+//          break;
+//          case 7:
+//          alert('周日');
+//          break;
+//          default:
+//              alert('不能大于数字7');
+//
+//
+//
+//
+//
+// }
+
+var numbers = prompt('请输入天数');
+if(numbers >= 2000){
+    alert('请大家吃西餐');
+} else if(numbers < 2000 && numbers >= 1500){
+    alert('请大家吃快餐');
+} else if(numbers < 1500 && numbers >= 1000){
+    alert('请大家喝饮料');
+} else if(numbers < 1000 && numbers >= 500){
+    alert('请大家吃棒棒糖');
+
+}else {
+    alert('班长钱没带够');
+}
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

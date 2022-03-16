@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var arr = [0,10,3,0];
+
+        // for (var i = 0; i < arr.length; i++){
+        //     if(arr[i] != 0){
+        //         NewArr[NewArr.length]  = arr[i];
+        //     }
+        //
+        // }
+        // console.log(NewArr);
+      //  NewArr.indexOf(arr[i])  出现-1时里面之前没有 结果为0里面有这个元素
+      //   for (let i = 0; i < arr.length; i++) {
+      //         console.log(NewArr.indexOf(arr[i]));
+      //       if(NewArr.indexOf(arr[i]) === -1){
+      //
+      //           NewArr.push(arr[i]);
+      //
+      //       }
+      //
+      //   }
+        let s1 = new Set(arr);
+
+        let NewArr = [];
+
+        for(let item of s1){
+
+            NewArr.push(item);
+
+        }
+
+        console.log(s1);
+        console.log(NewArr);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
