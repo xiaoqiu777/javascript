@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        //转换为字符串
+        // 1.toString();2. String(); 3.加好拼接字符串
+        // 1. 把数字类型转换为字符串型 变量.toString
+        var num = 10;
+        var str = num.toString();
+        console.log(typeof str);
+        console.log(String(num));
+        console.log(num + '');
+        //2.数据类型转换
+        //转换为数字型
+        // 2.1  parseInt(变量) 可以把字符型的转化为数字型 得到是整数
+        var age = prompt('请输入你的年龄');
+        console.log(parseInt(age));
+        console.log(parseInt('3.14')); // 3 取整
+        console.log(parseInt('3.93')); // 3 取整
+        console.log(parseInt('120px'));// 120 会去掉px 单位
+        console.log(parseInt('rem120px')); // NaN
+    // 2.2 parseFloat(变量）
+        console.log(parseFloat('3.14')); // 3.14
+        console.log(parseFloat('120px')); // 120
+        console.log(parseInt('rem120px')); // NaN
+        //2.3利用 Number(变量);
+        var str = '123';
+        console.log(Number(str));
+        console.log(Number('12'));
+        //2.4 利用算数运算 - + * /
+        console.log('12' - 0); //12
+        console.log('123' - '120'); //3
+    </script>
+</head>
+
+<body>
+
+</body>
+</html>
